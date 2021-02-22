@@ -558,8 +558,12 @@ ul {
   margin: 0 30px 30px 0;
 }
 
-.portfolio-gallery-item:hover,
-.portfolio-gallery-item:focus {
+.portfolio-gallery-item-link {
+  display: block;
+}
+
+.portfolio-gallery-item-link:hover,
+.portfolio-gallery-item-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
