@@ -372,6 +372,8 @@ ul {
 }
 
 .clients-list {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 94px;
 }
 
@@ -384,8 +386,11 @@ ul {
 }
 
 .clients-img {
-  display: block;
-  padding: 20px 63px;
+  display: flex;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--grey-color);
   border-radius: 4px;
   fill: var(--grey-color);
@@ -395,11 +400,6 @@ ul {
 .clients-img:focus,
 .clients-img:active {
   border: 1px solid var(--accent-color);
-}
-
-.clients-img-icon:hover,
-.clients-img-icon:focus,
-.clients-img-icon:active {
   fill: var(--accent-color);
 }
 
@@ -452,7 +452,7 @@ ul {
 
 .footer p {
   margin: 0;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
