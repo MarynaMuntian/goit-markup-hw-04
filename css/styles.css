@@ -9,6 +9,7 @@
   --border-color: #ececec;
   --portfolio-border-color: #eeeeee;
   --grey-color: #afb1b8;
+  --footer-icon-bgd: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -452,6 +453,7 @@ ul {
 
 .footer p {
   margin: 0;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -462,6 +464,35 @@ ul {
 
 .join-us {
   margin-left: 70px;
+}
+
+.join-us-list {
+  display: flex;
+}
+
+.join-us-list-item {
+  margin-right: 10px;
+}
+
+.join-us-list-item:last-child {
+  margin-right: 0;
+}
+
+.join-us-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--white-color);
+  background-color: var(--footer-icon-bgd);
+}
+
+.join-us-icon:hover,
+.join-us-icon:focus,
+.join-us-icon:active {
+  background-color: var(--accent-color);
 }
 
 /* Стили для portfolio */
